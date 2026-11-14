@@ -71,7 +71,7 @@ Although the project demonstrates important security mechanisms, it has not unde
 ![Security Process Overview](screenshots/security_process.png)
 
 ## 5. AES-256-GCM Encryption
-![AES-256-GCM Encryption](screenshots/aes_encryption.png)
+![AES-256-GCM Encryption](screenshots/aes_process.png)
 
 ## 6. RSA-2048 Key Exchange
 ![RSA-2048 Key Exchange](screenshots/rsa_key_exchange.png)
