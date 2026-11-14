@@ -46,3 +46,35 @@ The app creates its SQLite tables automatically on startup. For production, add 
 - Key exchange: fresh RSA-2048 key pair and RSA-OAEP with SHA-256
 - Authenticity: RSA-PSS with SHA-256
 - Hybrid design: AES handles order data, RSA wraps the AES key, and the signature authenticates the original order payload
+
+
+## Security Disclaimer
+
+CipherCo is an educational project developed to demonstrate the practical implementation of cryptographic techniques in an e-commerce environment. It showcases AES-256-GCM encryption, RSA-2048 key encryption, SHA-256 hashing, and digital signatures.
+
+This application is intended for learning and demonstration purposes only. It is not a production-ready e-commerce or payment processing system. The checkout and transaction workflows are simulated and should not be used to process real payments or sensitive financial information.
+
+Although the project demonstrates important security mechanisms, it has not undergone a comprehensive security audit or production-level testing. Additional security measures, testing, and infrastructure would be required before deployment in a real-world commercial environment.
+
+# Screenshots
+
+## 1. Featured Products Page
+![Featured Products Page](screenshots/featured-products.png)
+
+## 2. User Login Page
+![User Login Page](screenshots/login-page.png)
+
+## 3. Secure Checkout Page
+![Secure Checkout Page](screenshots/secure-checkout.png)
+
+## 4. Security Process Overview
+![Security Process Overview](screenshots/security-process.png)
+
+## 5. AES-256-GCM Encryption
+![AES-256-GCM Encryption](screenshots/aes-encryption.png)
+
+## 6. RSA-2048 Key Exchange
+![RSA-2048 Key Exchange](screenshots/rsa-key-exchange.png)
+
+## 7. Digital Signature Verification
+![Digital Signature Verification](screenshots/digital-signature.png)
