@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 app = Flask(__name__)
-app.secret_key = os.getenv("FLASK_SECRET_KEY", "dev-only-change-this")
+app.secret_key = os.environ["FLASK_SECRET_KEY"]
 DB_PATH = os.getenv("SQLITE_PATH", os.path.join(os.path.dirname(__file__), "secure_ecommerce.db"))
 def get_db():
     connection = sqlite3.connect(DB_PATH)
