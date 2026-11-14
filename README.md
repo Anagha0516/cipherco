@@ -59,22 +59,22 @@ Although the project demonstrates important security mechanisms, it has not unde
 # Screenshots
 
 ## 1. Featured Products Page
-![Featured Products Page](screenshots/featured-products.png)
+![Featured Products Page](screenshots/featured_products.png)
 
 ## 2. User Login Page
-![User Login Page](screenshots/login-page.png)
+![User Login Page](screenshots/login_page.png)
 
 ## 3. Secure Checkout Page
-![Secure Checkout Page](screenshots/secure-checkout.png)
+![Secure Checkout Page](screenshots/secure_checkout.png)
 
 ## 4. Security Process Overview
-![Security Process Overview](screenshots/security-process.png)
+![Security Process Overview](screenshots/security_process.png)
 
 ## 5. AES-256-GCM Encryption
-![AES-256-GCM Encryption](screenshots/aes-encryption.png)
+![AES-256-GCM Encryption](screenshots/aes_encryption.png)
 
 ## 6. RSA-2048 Key Exchange
-![RSA-2048 Key Exchange](screenshots/rsa-key-exchange.png)
+![RSA-2048 Key Exchange](screenshots/rsa_key_exchange.png)
 
 ## 7. Digital Signature Verification
-![Digital Signature Verification](screenshots/digital-signature.png)
+![Digital Signature Verification](screenshots/digital_signature.png)
